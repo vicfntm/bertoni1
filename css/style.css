@@ -53,10 +53,12 @@
 }
 
 .pricePanel {
-    width: 20%;
+    width: 75%;
     font-family: 'Exo 2', sans-serif;
     font-size: 1.3em;
     text-align: center;
+    background-color:#0033cc;
+    color:white;
 }
 
 .prPanel {
@@ -155,4 +157,12 @@ body .navbar-inverse .navbar-nav >li>a
 		}
 .wellBlok {
     background-color: #93a0b0;
+}
+
+#upbutton {
+    background:url(/pictures/BERTONI_sm.png);
+}
+.imgUp {
+    display:block;
+    margin: 0px 90%;
 }
