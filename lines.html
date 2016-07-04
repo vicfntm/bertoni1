@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Some Lines</title>
+	<style type="text/css">
+		.line-container{
+			padding: 20px 150px;
+			text-align: center;
+		}
+		/*CSS for the red line*/
+		.first-line{
+			color: red;
+			position: relative;
+			font-family: Arial, san-serif;
+			font-size: 18px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+
+		}
+		.first-line:before{
+			content: '';
+		    display: block;
+		    position: absolute;
+		    width: 20%;
+		    top: 50%;
+		    margin-top: -2px;
+		    height: 3px;
+		    background: red;
+		    left: 0;
+		}
+		.first-line:after{
+			content: '';
+		    display: block;
+		    position: absolute;
+		    width: 20%;
+		    top: 50%;
+		    right: 0;
+		    margin-top: -2px;
+		    height: 3px;
+		    background: red;
+		}
+		/*Css for the blue line*/
+		.second-line-block{
+			position: relative;
+			margin-bottom: 30px;
+		}
+		.second-line-block:before{
+			content: '';
+		    display: block;
+		    position: absolute;
+		    margin: 0 auto;
+		    width: 100%;
+		    min-width: 500px;
+		    top: 50%;
+		    left: 0;
+		    right: 0;
+		    margin-top: -2px;
+		    height: 3px;
+		    background: blue;
+		    
+		}
+		.text-block{
+			color: blue;
+			background-color: #fff;
+			font-family: Arial, san-serif;
+			font-size: 18px;
+			font-weight: bold;
+			text-transform: uppercase;
+			display: table;
+    		margin: 0 auto;
+    		position: relative;
+    		padding: 0 50px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="line-container">
+		<div class="first-line">This is a first variant of lines.</div>
+		<div class="second-line-block">
+			<div class="text-block">This is a first variant of lines.
+			</div>
+		</div>
+	</div>
+</body>
+</html><html><head></head><body></body></html>

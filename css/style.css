@@ -1,0 +1,158 @@
+#mainSlider {
+    padding-top: 65px;
+}
+.mainText {
+   margin-right: 0;
+    margin-left: 0;
+    margin-top: 100px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top:50px;
+    width: 100%;
+}
+
+.brandName {
+    padding-left: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+.brandPic {
+    position: absolute;
+    top: 8px;
+}
+    
+
+.ulClass {
+    padding-left: 50px;
+    font-size: 1.2em;
+}
+
+.mainPic {
+    padding-top: 50px;
+    padding-left: 0px;
+   
+}
+
+.context {
+    border:#d9edf7;
+    background-color: transparent;
+}
+
+.notoParagraph {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.4em;
+}
+
+.textNoto {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.listNotoText {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+}
+
+.pricePanel {
+    width: 20%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.prPanel {
+    width: 150px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 25%;
+    margin-top:15px;
+    line-height: 1.2;
+}
+
+.priceBlock {
+    padding-left: 10%;
+    background-color: #bf0606;
+    color:white;
+}
+
+
+
+.navbar-settings {
+    background-color: #bf0606;
+}
+
+#blackMenu {
+    color: black;
+    
+}
+
+
+body .navbar-inverse .navbar-nav >li>a
+ {
+    color:black;
+    
+}
+#mBar:hover {
+    color:white;
+}
+
+
+.foot {
+    background-color: #bf0606;
+    border: black;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2em;
+  
+}
+
+.defFoot {
+     
+}
+
+.priceTable {
+    background-color: #bf0606;
+}
+
+
+
+		.line-container{
+			padding: 20px 150px;
+			text-align: center;
+		}
+		/*CSS for the red line*/
+		.first-line{
+			color: #333;
+			position: relative;
+			font-family: 'Exo 2', sans-serif;
+			font-size: 2.5em;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+
+		}
+		.first-line:before{
+			content: '';
+		    display: block;
+		    position: absolute;
+		    width: 10%;
+		    top: 50%;
+		    margin-top: -2px;
+		    height: 3px;
+		    background: #333;
+		    left: 0;
+		}
+		.first-line:after{
+			content: '';
+		    display: block;
+		    position: absolute;
+		    width: 10%;
+		    top: 50%;
+		    right: 0;
+		    margin-top: -2px;
+		    height: 3px;
+		    background: #333;
+		}
+.wellBlok {
+    background-color: #93a0b0;
+}
