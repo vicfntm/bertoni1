@@ -59,6 +59,8 @@
     text-align: center;
     background-color:#0033cc;
     color:white;
+    border-radius:10px;
+    margin-top:30px;
 }
 
 .prPanel {
@@ -165,4 +167,13 @@ body .navbar-inverse .navbar-nav >li>a
 .imgUp {
     display:block;
     margin: 0px 90%;
+}
+body {
+    line-height:1.8;
+}
+p {
+    margin:20px 0 0 10px;
+}
+ul {
+    margin-top: 20px;
 }
