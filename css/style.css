@@ -161,9 +161,6 @@ body .navbar-inverse .navbar-nav >li>a
     background-color: #93a0b0;
 }
 
-#upbutton {
-    background:url(/pictures/BERTONI_sm.png);
-}
 .imgUp {
     display:block;
     margin: 0px 90%;
@@ -177,3 +174,4 @@ p {
 ul {
     margin-top: 20px;
 }
+
